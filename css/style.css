@@ -1,0 +1,9 @@
+.loading-img {
+  background: url(https://p0.meituan.net/csc/e1fb35b817ad1d0826b1e5221eef18d6112850.webp) no-repeat center center;
+  background-size: cover;
+}
+
+/* 去掉原来自带的before */
+#article-container .flink .flink-list>.flink-list-item::before {
+    content: none;
+}
