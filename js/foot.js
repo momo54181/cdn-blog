@@ -1,3 +1,4 @@
+//2023
 // 动态心跳，更改自己的名称
 $(document).ready(function(e){
     $('.copyright').html('<font style="color:#afb4db">©2022 - 2023</font> <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> <font style="color:#afb4db">By 莫莫</font></span> ');
