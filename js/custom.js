@@ -272,7 +272,7 @@ doStuff();
 
 var stop, staticx;
 var img = new Image();
-img.src = "https://cdn.afdelivr.top/npm/liynw-blog@1.0.6/img/leaf.webp";
+img.src = "https://cdn1.tianli0.top/npm/liynw-blog@1.0.6/img/leaf.webp";
 function Sakura(x, y, s, r, fn) {
     this.x = x;
     this.y = y;
