@@ -1,0 +1,52 @@
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background: #000;
+    border-radius: 8px;
+    opacity: 0.25;
+    z-index: 10086;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+    opacity: 0;
+}
+
+#cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+}
+
+#fps{
+    position: fixed;
+    right:10px;
+    bottom:4px;
+    z-index: 1919810;
+}
+
+[data-theme="light"] #fps{
+    background-color: var(--lyx-white-acrylic1);
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+[data-theme="dark"] #fps{
+    background-color: var(--lyx-black-acrylic1);
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+
+
+作者: Ariasaka
+链接: https://yisous.xyz/posts/670e47f/#%E6%96%B0%E7%89%88rightmenu%E6%94%AF%E6%8C%81%E9%81%AE%E7%BD%A9
+来源: Ariasakaの小窝
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
