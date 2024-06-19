@@ -3,8 +3,8 @@
 
 
 
-版 本 号：0.0.3
-更新日期：2023-07-21
+版 本 号：0.0.4
+更新日期：2024-06-19
 
 主页:  https://blog.mocn.top/
 Github:  https://github.com/momo54181
@@ -159,3 +159,16 @@ loop();
 //如果要使博客设置上面的设置项能生效，就把上面两行取消注释
 }
 
+<script src="https://tam.cdn-go.cn/aegis-sdk/latest/aegis.min.js"></script>
+<script>
+  if (typeof Aegis === 'function') {
+    var aegis = new Aegis({
+      id: 'vq2kQF4Wo1912pExdr', // 上报 id
+      uin: 'xxx', // 用户唯一 ID（可选）
+      reportApiSpeed: true, // 接口测速
+      reportAssetSpeed: true, // 静态资源测速
+      spa: true, // spa 应用页面跳转的时候开启 pv 计算
+    hostUrl: 'https://rumt-zh.com'
+    });
+  }
+</script>
